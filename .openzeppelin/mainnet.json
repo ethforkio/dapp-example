@@ -1,0 +1,52 @@
+{
+  "contracts": {
+    "Counter": {
+      "address": "0xfBd3ffC8f802542c1F0Dea9f3118a25eF5d56Ad8",
+      "constructorCode": "6080604052348015600f57600080fd5b5060a58061001e6000396000f3fe",
+      "bodyBytecodeHash": "117171664b24a7f1ef49cd823726a4fc490a1ac415708ff8b08bcc23f42ed60c",
+      "localBytecodeHash": "f3b7f028336d5a1a0e3b5d3f0a6ea855a0adf4c7fb43b522ab05a50f0d100ee1",
+      "deployedBytecodeHash": "f3b7f028336d5a1a0e3b5d3f0a6ea855a0adf4c7fb43b522ab05a50f0d100ee1",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Counter",
+          "path": "contracts/Counter.sol",
+          "label": "value",
+          "astId": 3,
+          "type": "t_uint256",
+          "src": "48:20:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "dapp-example/Counter": [
+      {
+        "address": "0x9451A586F5c2Ed0CA7D7a91D95eb5b27e4202BFB",
+        "version": "1.0.0",
+        "implementation": "0xfBd3ffC8f802542c1F0Dea9f3118a25eF5d56Ad8",
+        "admin": "0x0301E061A911f78fD3251F815ECb9f8a032a7954",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x0301E061A911f78fD3251F815ECb9f8a032a7954"
+  }
+}

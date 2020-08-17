@@ -1,0 +1,23 @@
+{
+  "name": "dapp-example",
+  "version": "1.0.0",
+  "description": "DApp Example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ethforkio@github.com/ethforkio/dapp-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethforkio/dapp-example/issues"
+  },
+  "homepage": "https://github.com/ethforkio/dapp-example#readme",
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2"
+  }
+}
